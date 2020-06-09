@@ -8,5 +8,13 @@
             validator="org.eclipse.gemoc.execution.sequential.javaxdsml.ruleprovider.Kermeta3RuleProvider">
       </approach>
    </extension>
+   
+   <extension
+         point="org.eclipse.gemoc.gemoc_language_workbench.metaprog">
+      <approach
+            name="org.eclipse.gemoc.java.interpreter.truffle"
+            validator="org.eclipse.gemoc.execution.sequential.javaxdsml.ruleprovider.TruffleRuleProvider">
+      </approach>
+   </extension>
 
 </plugin>
